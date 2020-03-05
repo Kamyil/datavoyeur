@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "baseUrl": "resources/typescript/",
+    "paths": {
+      "Core/*": [ "Core/*" ],
+      "Engines/*": [ "Engines/*" ],
+      "Plugins/*": [ "Plugins/*" ],
+      "Services/*": [ "Services/*" ]
+    },
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": false,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "declaration": false,
+    "esModuleInterop": false,
+    "noEmit": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+//    "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "lib": ["es5","es2015", "es2017", "dom"],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useWebpackText": true
+  },
+  "compileOnSave": true,
+  "buildOnSave": true,
+  "atom": {
+    "rewriteTsconfig": false
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "typedocOptions": {
+    "mode": "modules",
+    "out": "docs"
+  }
+}
