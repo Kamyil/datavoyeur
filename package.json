@@ -71,7 +71,7 @@
     "istanbul-instrumenter-loader": "3.0.1",
     "lint-staged": "8.1.6",
     "module-alias": "2.2.0",
-    "node-sass": "4.12.0",
+    "node-sass": "4.13.1",
     "postcss-cli": "6.0.1",
     "postcss-loader": "3.0.0",
     "prettier": "1.17.0",
